@@ -1,0 +1,232 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+.blackText {
+  color: black;
+}
+
+/* Styles for the white background box */
+.whiteBox {
+  background-color: white;
+  border-radius: 15px;
+  /* Adjust the radius as needed */
+  padding: 20px;
+  margin: 20px;
+  width: 85%;
+  height: 900px;
+  
+  margin-top: -3%;
+}
+
+/* page.module.css */
+.generateButton {
+  background-color: #000000;
+  color: #fff;
+  padding: 8px 8px;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  /* Adjust as needed */
+  width: 100%;
+  height: 50px;
+  /* Set the desired height */
+  font-size: 0.9rem;
+}
+
+.generateButton:hover {
+  background: #134572;
+}
+
+
+.inputField {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -5px;
+  resize: vertical;
+  width: 420%;
+  height: 50px;
+  /* Set the desired height */
+  color: black;
+  font-size: 0.9rem;
+}
+
+
+.inputBox {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* page.module.css */
+.responseBox {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+/* page.module.css */
+.generatedImage {
+ display: block;
+  margin: 0 auto;
+    max-width: auto;
+    height: auto;
+    margin-top: 25px;
+}
+
+.imageBox {
+  align-items: center;
+  border-radius: 8px;
+  resize: vertical;
+  width: 2000px;
+  height: 600px;
+  border: 1px solid #000000;
+  margin-bottom: -5px;
+}
+
+.copySuccess {
+  color: green;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.reserve{
+  font-size: 0.9rem;
+  color: #fff;
+}
+/*h1 style={{  color: "black" ,textAlign:'center',margin: "15px", fontSize:"2.25rem",fontWeight:"700" }}><strong> */
+.heading{
+  color: #000000;
+text-align: center;
+font-size: 2.25rem;
+font-weight: 700;
+}
+.headings{
+  color: #000000;
+font-size: 1.5rem;
+font-weight: 600;
+margin-top: -5px;
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .generatedImage {
+    margin-top: 30px;
+    max-width: 400px;
+    height: 400px;
+  }
+
+  .generateButton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 0.7rem;
+  }
+  .inputField {
+font-size: 0.7rem;
+  }
+  
+  .imageBox {
+width: 1000px;
+    height: 530px;
+  }
+  .responseBox {
+    display: flex;
+   flex-wrap: wrap;
+  }
+  .whiteBox {
+ 
+   height: 1000px;
+ }
+
+ .buton{
+  justify-content: center;
+  margin-left: 90px;
+ }
+}
+@media (min-width: 300px) and (max-width: 701px) {
+
+  .generateButton { font-size: 0.7rem;
+    padding: 10px;
+  }
+
+  .inputField { font-size: 0.7rem;
+  }
+
+  .imageBox {
+    width: 1000px;
+    height: 380px;
+  }
+  .whiteBox {
+     margin-top: -23px;
+    width: 260%;
+    height: 850px;
+  }
+  .responseBox {
+    display: flex;
+   flex-wrap: wrap;
+  }
+  .generatedImage {
+    margin-top: 25px;
+    max-width: 300px;
+    height: auto;
+  }
+  .reserve{
+    font-size: 0.7rem;
+    
+  }
+  .buton{
+    justify-content: center;
+   }
+  
+.inputBox {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+  /* Add this to evenly space the elements */
+  margin-bottom: 10px;
+  margin-left: 3px;
+  margin-right: 0.5px;
+}
+.heading{
+  color: #000000;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 650;
+margin-bottom: 20px;
+}
+.headings{
+  color: #000000;
+font-size: 1.3rem;
+font-weight: 580;
+}
+.buton{
+  margin-left: 60px;
+}
+}
